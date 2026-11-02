@@ -393,7 +393,7 @@ grep          Searches text inside files
 
 This command searches all matching .txt files in the project and its subdirectories.
 
-![modified](./image/Modified.PNG)
+![modified](./image/Hello.PNG)
 
 #### Task 19: Rename secret.txt to hidden_secret.txt
 The instruction says to rename the file without changing directories.
