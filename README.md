@@ -225,6 +225,8 @@ ls -lah
 | `-f` | Specify the archive filename |
 | `--exclude` | Exclude a specified directory |
 | `.` | Include the current directory and its contents |
+
+
 The backup directory is excluded because the archive is being created inside it. This prevents the archive from attempting to include itself.
 
 The archive includes hidden files because the command archives . rather than using a wildcard such as *.
