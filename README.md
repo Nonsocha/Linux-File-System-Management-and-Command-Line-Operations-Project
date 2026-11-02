@@ -217,21 +217,14 @@ ls -lah
    tar -cvf backup/archive.tar --exclude='./backup' .
 ```
 #### Explanation:
-
-  Option                   Meaning
-
--   tar                     Archive utility
-
- -  -c                      Create a new archive
-
-  - -v                     Display files being archived
-
- - -f                        Specify the archive filename
-
-- --exclude                Exclude a specified directory
-
-.                        Include the current directory's contents
-
+| Option | Meaning |
+|---|---|
+| `tar` | Archive utility |
+| `-c` | Create a new archive |
+| `-v` | Display files being archived |
+| `-f` | Specify the archive filename |
+| `--exclude` | Exclude a specified directory |
+| `.` | Include the current directory and its contents |
 The backup directory is excluded because the archive is being created inside it. This prevents the archive from attempting to include itself.
 
 The archive includes hidden files because the command archives . rather than using a wildcard such as *.
@@ -364,17 +357,13 @@ grep -Rni --include="*.txt" "Hello World" .
 ```
 #### Explanation:
 
-Option       Meaning
-
-grep          Searches text inside files
-
--R            Searches recursively
-
--n           Displays matching line numbers
-
--i           Ignores letter case
-
---include     Restricts the search to specified filenames
+| Option | Meaning |
+|---|---|
+| `grep` | Searches text inside files |
+| `-R` | Searches recursively through directories |
+| `-n` | Displays matching line numbers |
+| `-i` | Ignores letter case |
+| `--include` | Restricts the search to specified filenames |
 
 
 "Hello World"     Text being searched
