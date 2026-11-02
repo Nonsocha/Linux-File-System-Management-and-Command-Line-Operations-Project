@@ -27,21 +27,21 @@ The project consists of 20 practical tasks performed using Linux commands in a t
 - Search file contents using grep.
 
 
-### Tools              Purpose
+### | Tools |                   | Purpose |
 
-Linux                     Operating system and command-line environment
+    Linux                     Operating system and command-line environment
 
-Git Bash                   Linux-style terminal on Windows
+    Git Bash                   Linux-style terminal on Windows
 
-Bash                        Command-line shell
+     Bash                        Command-line shell
 
-GNU Coreutils              File and directory operations
+   GNU Coreutils              File and directory operations
 
-GNU tar                    Archiving and extraction
+    GNU tar                    Archiving and extraction
 
-find                       File searching
+    find                           File searching
 
-grep                      Searching file contents
+   grep                           Searching file contents
 
 
 ### 2. Project Environment Setup
@@ -112,13 +112,13 @@ Explanation: The command changes the permissions of file_b.txt.
 
 Permission breakdown:
 
-Permission                 Value              Meaning
+|Permission|                | Value |             | Meaning|
 
-Owner                       6               Read and write
+Owner                          6               Read and write
 
-Group                       4               Read only
+Group                          4               Read only
 
-Others                      4               Read only
+Others                          4               Read only
 
 The resulting permission is:
 
