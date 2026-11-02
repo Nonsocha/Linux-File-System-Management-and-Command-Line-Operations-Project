@@ -26,7 +26,7 @@ The project consists of 20 practical tasks performed using Linux commands in a t
 
 - Search file contents using grep.
 
-
+```
 ### | Tools  |  Purpose |
    |---- | ----|
    
@@ -44,7 +44,7 @@ The project consists of 20 practical tasks performed using Linux commands in a t
 
    |`grep `| `Searching file contents`|
 
-
+```
 ### 2. Project Environment Setup
 
 Open Git Bash or a Linux terminal.
