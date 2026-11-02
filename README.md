@@ -126,7 +126,7 @@ The resulting permission is:
 
 The owner can read and modify the file, while other users can only read it.
 
-![permisssion](./permission.PNG)
+![permisssion](./image/permission.PNG)
 
 
 ### Step 6: Create a Nested Directory and Copy Both Files
@@ -145,7 +145,7 @@ Verify:
 
 ls -l nested_directory
 
-![nested](./nested.PNG)
+![nested](./image/nested.PNG)
 
 
 ### Create a File and Write Text into It
@@ -158,7 +158,7 @@ ls -l nested_directory
 ```
 echo "Hello World" > secret.txt
 ```
-![capture](./secret.PNG)
+![capture](./image/secret.PNG)
 
 #### Explanation:
 
@@ -200,7 +200,7 @@ touch .hidden_file
 #### Explanation: 
 In Linux, filenames beginning with a dot (.) are hidden by default.
 
-![hidden](./hiddenfile.PNG)
+![hidden](./image/hiddenfile.PNG)
 
 #### Step 10: Display All Files, Including Hidden Files
 ```
@@ -214,7 +214,7 @@ ls -lah
 
 - -h displays human-readable file sizes such as KB and MB.
   
-![hidden](./hiddenfile.PNG)
+![hidden](./image/hiddenfile.PNG)
 
 ### Step 11: Create a Backup Directory and Archive the Project
 
@@ -289,7 +289,7 @@ Verify:
 ls -li temp.txt hard_link_to_temp
 ```
 Both files should display the same inode number.
-![restre](./hardlink.PNG)
+![restre](./image/hardlink.PNG)
 
 
 ### Step 14: Find All .txt Files
@@ -349,7 +349,7 @@ Verify:
 ls -l
 ```
 
-![symbolic](./symboliclink.PNG)
+![symbolic](./image/symboliclink.PNG)
 
 ### Task 17: Find Files Modified Within the Last Seven Days
 
@@ -365,7 +365,7 @@ find searches recursively.
 - -mtime -7 selects files modified less than seven 24-hour periods ago.
 
 - -print displays their paths.
-![Modified](./Modified.PNG)
+![Modified](./image/Modified.PNG)
 
 ### Step 18: Search for "Hello World" in All .txt Files
 
@@ -393,7 +393,7 @@ grep          Searches text inside files
 
 This command searches all matching .txt files in the project and its subdirectories.
 
-![modified](./Modified.PNG)
+![modified](./image/Modified.PNG)
 
 #### Task 19: Rename secret.txt to hidden_secret.txt
 The instruction says to rename the file without changing directories.
