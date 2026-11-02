@@ -220,15 +220,15 @@ ls -lah
 
   Option                   Meaning
 
-   tar                     Archive utility
+-   tar                     Archive utility
 
-   -c                      Create a new archive
+ -  -c                      Create a new archive
 
-   -v                     Display files being archived
+  - -v                     Display files being archived
 
-  -f                        Specify the archive filename
+ - -f                        Specify the archive filename
 
- --exclude                Exclude a specified directory
+- --exclude                Exclude a specified directory
 
 .                        Include the current directory's contents
 
