@@ -66,7 +66,7 @@ mkdir creates a new directory.
 ```
 cd changes the current working directory.
 
-![advanced](./Capture.PNG)
+![advanced](./image/Capture.PNG)
 
 
 ### Step 3: Create Two Files and Display Detailed Information
@@ -74,7 +74,7 @@ cd changes the current working directory.
 touch file_a.txt file_b.txt
 ls -l
 
-![touch](./touch.PNG)
+![touch](./image/touch.PNG)
 Explanation:
 
 - touch creates empty files.
@@ -96,7 +96,7 @@ Verify the link:
 
 ls -l
 
-![sym](./link.PNG)
+![sym](./image/link.PNG)
 
 #### Step 5: Change File Permissions
 
