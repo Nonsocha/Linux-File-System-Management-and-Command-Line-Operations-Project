@@ -112,13 +112,13 @@ Explanation: The command changes the permissions of file_b.txt.
 
 Permission breakdown:
 
-Permission             Value        Meaning
+Permission                 Value              Meaning
 
-Owner                    6          Read and write
+Owner                       6               Read and write
 
-Group                    4          Read only
+Group                       4               Read only
 
-Others                   4          Read only
+Others                      4               Read only
 
 The resulting permission is:
 
