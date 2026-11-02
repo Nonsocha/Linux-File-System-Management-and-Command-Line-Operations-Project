@@ -25,26 +25,18 @@ The project consists of 20 practical tasks performed using Linux commands in a t
 - Search for files based on names and modification dates.
 
 - Search file contents using grep.
+### Tools and Technologies
 
-```
-### | Tools  |  Purpose |
-   |---- | ----|
-   
-   | `Linux`  |  `Operating system and command-line environment`|
+| Tool | Purpose |
+|---|---|
+| `Linux` | Operating system and command-line environment |
+| `Git Bash` | Linux-style terminal on Windows |
+| `Bash` | Command-line shell |
+| `GNU Coreutils` | File and directory operations |
+| `GNU tar` | Archiving and extraction |
+| `find` | File searching |
+| `grep` | Searching file contents |
 
-   | `Git Bash`  | `Linux-style terminal on Windows` |
-
-   |`Bash ` | `Command-line shell`|
-
-   | `GNU Coreutils` | `File and directory operations`|
-
-   |`GNU tar`  | `Archiving and extraction` |
-
-   |`fine` | `File searching`|
-
-   |`grep `| `Searching file contents`|
-
-```
 ### 2. Project Environment Setup
 
 Open Git Bash or a Linux terminal.
